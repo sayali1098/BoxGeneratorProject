@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box-Generator</title>
+    <script src="box.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BOX GENERATOR</h1>
+
+    <label for="boxnumber">Enter number of boxes:</label>
+    <input type="text" name="boxnumber" id="number" /> <br />
+    <br />
+    <label for="favcolor"> Select color from palette: </label>
+    <input type="color" name="favcolor" id="mycolor" value="#ffff00" />
+    <br /><br />
+    <button id="theBoxes">Generate Box</button>
+
+    <div class="container">
+      <div class="box" id="box"></div>
+    </div>
+  </body>
+</html>
